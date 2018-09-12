@@ -15,8 +15,8 @@
 ul {
   list-style: none;
 }
+
 li {
-  list-style-type: none;
   padding-right: .5em;
 }
 .column1,
@@ -26,9 +26,23 @@ li
 {
   display: inline-block;
 }
+
+.chapter {
+	display:list-item;
+	padding-right: 15em;
+	padding-left: 30em;
+	padding-top: 10px;
+	text-align: left;
+	list-style-position: inside;
+}
+.subchapter {
+	display:list-item;
+	padding-top: 5px;
+}
 #wrapper1,
 #wrapper2,
 #wrapper3,
+#wrapper4,
 #footer {
   padding-top: .7em;
 }
@@ -50,8 +64,9 @@ li
 					<li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
 					<li><a href="#wrapper2" accesskey="2" title="">Coming Soon</a></li>
 					<li><a href="#wrapper3" accesskey="3" title="">The Authors</a></li>
-					<li><a href="#footer" accesskey="4" title="">Student Contributors</a></li>
-					<li><a href="#" accesskey="5" title="">Contact Us</a></li>
+					<li><a href="#wrapper4" accesskey="4" title="">Table of Contents</a></li>
+					<li><a href="#footer" accesskey="5" title="">Student Contributors</a></li>
+					<li><a href="#" accesskey="6" title="">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
@@ -90,6 +105,59 @@ li
 					<p>Associate Professor, MIT</p>
 					<a href="http://web.media.mit.edu/~raskar/" class="button button-small">More about Ramesh</a> </div>
 			</div>
+		</div>
+	</div>
+	<div id="wrapper4" style="padding-top: 2em">
+		<div id="toc" class="container">
+			<div class="title">
+				<h2> Table of Contents </h2>
+
+				<ol type="1">
+				  <li class="chapter"> Introduction to Computational Imaging 
+				  	<ol type="i"> 
+				  		<li class="subchapter"> Emerging Field of Computational Imaging</li>
+				  		<li class="subchapter"> Related Fields and Topics </li>
+				  		<li class="subchapter"> Future Impact </li>
+				  	</ol>
+				  </li>
+				  <li class="chapter"> Overview of Tools and Techniques </li>
+
+				  <li class="chapter"> Conventional Imaging </li>
+
+				  <li class="chapter"> Beyond Conventional Imaging via Plenoptic Model 
+				  	<ol type="i"> 
+				  		<li class="subchapter"> Lightfield Imaging </li>
+				  		<li class="subchapter"> Time-resolved Imaging </li>
+				  		<li class="subchapter"> Polarimetric Imaging </li>
+				  		<li class="subchapter"> Other examples </li>
+				  	</ol>
+				  </li>
+
+				  <li class="chapter">Beyond Conventional Imaging via Light Transport Theory
+				  	<ol type="i"> 
+				  		<li class="subchapter"> Higher order Imaging </li>
+				  		<li class="subchapter"> Multi-path, Global-Direct, Primal-Dual </li>
+				  		<li class="subchapter"> Non-line-of-sight Imaging </li>
+				  		<li class="subchapter"> Imaging through Scattering Media </li>
+				  	</ol>
+				  </li>
+
+				  <li class="chapter"> Beyond Conventional Imaging via Data Driven Approaches</li>
+
+				  <li class="chapter"> Interdisciplinary Applications and Case Studies
+				  	<ol type="i"> 
+				  		<li class="subchapter"> Computational Robotic Imaging </li>
+				  		<li class="subchapter"> Computational Bio-imaging </li>
+				  		<li class="subchapter"> Consumer Photography </li>
+				  	</ol>
+				   </li>
+
+				  <li class="chapter"> Future Directions</li>
+
+				</ol>  
+
+			</div>
+			
 		</div>
 	</div>
 </div>
