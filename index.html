@@ -38,6 +38,10 @@ li
 	display:list-item;
 	padding-top: 5px;
 }
+.subtopic {
+	display:list-item;
+	padding-top: 5px;
+}
 #wrapper1,
 #wrapper3,
 #wrapper4,
@@ -102,51 +106,133 @@ li
 				<h2> Table of Contents </h2>
 
 				<ol type="1">
-				  <li class="chapter"> Introduction to Computational Imaging 
-				  	<ol type="i"> 
-				  		<li class="subchapter"> Emerging Field of Computational Imaging</li>
-				  		<li class="subchapter"> Related Fields and Topics </li>
-				  		<li class="subchapter"> Future Impact </li>
-				  	</ol>
-				  </li>
-				  <li class="chapter"> Overview of Tools and Techniques </li>
 
-				  <li class="chapter"> Conventional Imaging </li>
-
-				  <li class="chapter"> Beyond Conventional Imaging via Plenoptic Model 
-				  	<ol type="i"> 
-				  		<li class="subchapter"> Lightfield Imaging </li>
-				  		<li class="subchapter"> Time-resolved Imaging </li>
-				  		<li class="subchapter"> Polarimetric Imaging </li>
-				  		<li class="subchapter"> Other examples </li>
-				  	</ol>
-				  </li>
-
-				  <li class="chapter">Beyond Conventional Imaging via Light Transport Theory
-				  	<ol type="i"> 
-				  		<li class="subchapter"> Higher order Imaging </li>
-				  		<li class="subchapter"> Multi-path, Global-Direct, Primal-Dual </li>
-				  		<li class="subchapter"> Non-line-of-sight Imaging </li>
-				  		<li class="subchapter"> Imaging through Scattering Media </li>
+				  <!-- Chapter 1 -->  
+				  <li class="chapter">Introduction to Computational Imaging 
+				  	<ol type="a"> 
+				  		<li class="subchapter">What is Computational Imaging? </li>
+				  		<li class="subchapter">Related Fields and Topics
+				  			<ol type="i"> 
+						  		<li class="subtopic">Roots in Astronomical Imaging</li>
+						  		<li class="subtopic">Synergies with Medical Imaging</li>
+						  		<li class="subtopic">Comparison with Computational Photography</li>
+						  	</ol>
+				  		</li>
+				  		<li class="subchapter">Current Impact
+				  			<ol type="i"> 
+						  		<li class="subtopic">Digital Imaging</li>
+						  		<li class="subtopic">Medical and Health</li>
+						  		<li class="subtopic">Space, Arial, and Military</li>
+						  		<li class="subtopic">Consumer and Cell Phone Imaging</li>
+						  	</ol>
+				  		</li>
+				  		<li class="subchapter">Future Impact </li>
 				  	</ol>
 				  </li>
 
-				  <li class="chapter"> Beyond Conventional Imaging via Data Driven Approaches</li>
-
-				  <li class="chapter"> Interdisciplinary Applications and Case Studies
-				  	<ol type="i"> 
-				  		<li class="subchapter"> Computational Robotic Imaging </li>
-				  		<li class="subchapter"> Computational Bio-imaging </li>
-				  		<li class="subchapter"> Consumer Photography </li>
+				  <!-- Chapter 2 --> 
+				  <li class="chapter">Classical Overview of Imaging 
+				  	<ol type="a"> 
+				  		<li class="subchapter"> Pinholes and Lenses</li>
+				  		<li class="subchapter"> Camera Parameters (Aperture, Exposure, etc.)</li>
+				  		<li class="subchapter"> Understanding Noise </li>
 				  	</ol>
-				   </li>
+				  </li>
 
-				  <li class="chapter"> Future Directions</li>
+				  <!-- Chapter 3 --> 
+				  <li class="chapter"> Computational Overview of Imaging
+				  	<ol type="a"> 
+				  		<li class="subchapter"> Design Across Optics and Computer Science </li>
+				  		<li class="subchapter"> Optical Design Thinking </li>
+				  		<li class="subchapter">Computational Design Thinking </li>
+				  	</ol>
+				  </li>
+
+				  <!-- Chapter 4 --> 
+				  <li class="chapter"> Spatially Coded Imaging 
+				  	<ol type="a"> 
+				  		<li class="subchapter"> Historical Highlight: X-ray Astronomy (1965) </li>
+				  		<li class="subchapter"> Coding the Aperture </li>
+				  		<li class="subchapter"> Coding the Sensor </li>
+				  		<li class="subchapter"> Coding the Illumination </li>
+				  		<li class="subchapter"> Compressive Imaging </li>
+				  		<li class="subchapter"> Ghost Imaging </li>
+				  	</ol>
+				  </li>
+
+				  <!-- Chapter 5 --> 
+				  <li class="chapter">Temporally Coded Imaging
+				  	<ol type="a"> 
+				  		<li class="subchapter"> Historical Highlight: Experiments by Galileo and Fizeau (1638, 1851)  </li>
+				  		<li class="subchapter">Time of Flight and LIDAR  </li>
+				  		<li class="subchapter"> Methods using Optical Coherence </li>
+				  		<li class="subchapter"> Methods using Continuous Wave </li>
+				  	</ol>
+				  </li>
+
+				  <!-- Chapter 6 -->
+				  <li class="chapter"> Lightfield Capture and Display 
+				  	<ol type="a"> 
+				  		<li class="subchapter"> Historical Highlight: Experiments by Galileo and Fizeau (1638, 1851)  </li>
+				  		<li class="subchapter">Camera Arrays</li>
+				  		<li class="subchapter"> Light Field Photography  </li>
+				  		<li class="subchapter"> Light Field Displays </li>
+				  	</ol>
+				  </li>
+
+				  <!-- Chapter 7 --> 
+				  <li class="chapter">Polarimetric Imaging
+				  	<ol type="a"> 
+				  		<li class="subchapter">Historical Highlight: The Vikings and their use of Polarization (700)</li>
+				  		<li class="subchapter">Principles of Polarization</li>
+				  		<li class="subchapter">Exploiting Linear Polarization</li>
+				  		<li class="subchapter">Exploiting Circular Polarization</li>
+				  		<li class="subchapter">Stokes Characterization</li>
+				  	</ol>
+				  </li>
+
+				  <!-- Chapter 8 --> 
+				  <li class="chapter"> Multispectral Imaging
+				  	<ol type="a"> 
+				  		<li class="subchapter">Historical Highlight: Roentgen and X-rays (1895)</li>
+				  		<li class="subchapter">The Electromagnetic Spectrum</li>
+				  		<li class="subchapter">Computational Spectral Imaging</li>
+				  	</ol>
+				  </li>
+
+				  <!-- Chapter 9 --> 
+				  <li class="chapter"> Multi-illumination Imaging
+				  	<ol type="a"> 
+				  		<li class="subchapter">Historical Highlight: Lambert’s Photometria (1760)</li>
+				  		<li class="subchapter">Photometric Stereo</li>
+				  		<li class="subchapter">The Light Stage</li>
+				  	</ol>
+				  </li>
+
+				  <!-- Chapter 10 --> 
+				  <li class="chapter"> Towards a Complete Understanding of Light Transport 
+				  	<ol type="a"> 
+				  		<li class="subchapter">What is Light Transport?</li>
+				  		<li class="subchapter">Multipath Imaging</li>
+				  		<li class="subchapter">Imaging around corners</li>
+				  		<li class="subchapter">Imaging through scattering</li>
+				  	</ol>
+				  </li>
+
+				  <!-- Chapter 11 --> 
+				  <li class="chapter">Fusion of Machine Learning and Image Capture
+				   	<ol type="a"> 
+				  		<li class="subchapter">Rethinking the Camera Pipeline with Data-driven Approaches</li>
+				  		<li class="subchapter">Optical Neural Networks</li>
+				  		<li class="subchapter">Emerging Trends</li>
+				  	</ol>
+				  </li>
+
+				  <!-- Chapter 12 --> 
+				  <li class="chapter"> Future of Imaging and Conclusions</li>
 
 				</ol>  
-
 			</div>
-			
 		</div>
 	</div>
 </div>
@@ -157,6 +243,9 @@ li
 
 </div> -->
 <div> &nbsp; </div>
+<div> &nbsp; </div>
+<div> &nbsp; </div>
+
 <div id="copyright" class="container">
 	<p>&copy; MIT Press. All rights reserved. | Built by<a href="http://ateamdigital.com" rel="nofollow"> A-Team Digital</a>.</p>
 </div>
